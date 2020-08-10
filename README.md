@@ -29,6 +29,9 @@ SmartShoes
     + 로딩 화면
       
       ![1.1](https://github.com/butcher313/Images/blob/master/%EB%A1%9C%EB%94%A9%ED%99%94%EB%A9%B4.jpg)
+      
+     - [Loading Activity](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/LoadingActivity.java)
+     - [Main Activity](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/MainActivity.java)   
   
     + 메인 화면
       
