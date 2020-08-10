@@ -49,9 +49,9 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
 
-    Integer sum_left = 0;
-    Integer sum_right = 0;
-    Integer sum = 0;
+    Integer sum_left = 0; // left는 왼쪽 발의 압력값을 저장하는 변수 
+    Integer sum_right = 0; // right는 오른쪽 발의 압력값을 저장하는 변수
+    Integer sum = 0; // sum은 왼쪽과 오른쪽 발의 압력값을 합하여 저장하는 변수 
 
     Integer newleft = 0;
     Integer newright = 0;
@@ -126,7 +126,8 @@ public class HomeFragment extends Fragment {
 
 
         button.setOnClickListener(new View.OnClickListener() {
-
+        // 사용자가 버튼을 클릭 하면 UI 상에 양쪽 발의 압력값 비율을 나타내줌
+            
             @Override
             public void onClick(View v) {
 
@@ -187,7 +188,8 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
-        mBluetoothHandler = new Handler() {
+        
+        mBluetoothHandler = new Handler() { // 블루 투스 연결
             public void handleMessage(android.os.Message msg) {
                 if (msg.what == BT_MESSAGE_READ) {
                     String readMessage = null;
