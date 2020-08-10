@@ -31,11 +31,20 @@ SmartShoes
       ![1.1](https://github.com/butcher313/Images/blob/master/%EB%A1%9C%EB%94%A9%ED%99%94%EB%A9%B4.jpg)
       
       - [Loading Activity](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/LoadingActivity.java)
-      - [Main Activity](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/MainActivity.java)   
+      - [Main Activity](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/MainActivity.java)  
+      
+      <br>
   
     + 메인 화면
       
       ![2](https://github.com/butcher313/Images/blob/master/KakaoTalk_20200804_100907429.jpg)
+      
+      <br>
+      
+      - [Home Fragment](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/home/HomeFragment.java)
+      - [Home View Model](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/home/HomeViewModel.java)
+      
+      <br>
       
           압력과 각도를 볼 수 있는 화면이다. 어플리케이션에 접속을 하면 먼저 블루투스 ON 버튼을 눌러 블루투스를 
           활성화 시킨 후, 연결하기 버튼을 눌러 자신의 신발(아두이노)과 통신을 연결 시켜야 한다. 
@@ -43,6 +52,8 @@ SmartShoes
           버튼을 누르면 누적된 값의 평균을 내어 위와같이 화면에 표시를 해준다. 
           
     <br>
+    
+       
     
     + 블루투스 연결 화면 
     
@@ -57,6 +68,13 @@ SmartShoes
     
     ![4](https://github.com/butcher313/Images/blob/master/KakaoTalk_20200804_100907429_01.jpg)
     
+    <br>
+    
+      - [GPS Fragment](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/notifications/NotificationsFragment.java)
+      - [GPS View Model](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/notifications/NotificationsViewModel.java)
+      
+      <br>
+      
         GPS 기능을 통해 본인이 지도상 어디에 있는지 확인 가능하다.
         
     <br>
@@ -64,6 +82,13 @@ SmartShoes
     + 교정 화면
     
     ![5](https://github.com/butcher313/Images/blob/master/%EA%B5%90%EC%A0%95%ED%99%94%EB%A9%B4.jpg)
+    
+    <br>
+    
+      - [Dashboard Fragment](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/dashboard/DashboardFragment.java)
+      - [Dashboard View Model](https://github.com/butcher313/SmartShoes-android/blob/master/app/src/main/java/org/techtown/wedoino/ui/dashboard/DashboardViewModel.java)
+    
+    <br>
     
         걸음걸이 교정에 대한 도움 자료를 볼 수 있는 화면이다.
 
